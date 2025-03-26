@@ -284,10 +284,11 @@ const StudentRegistration = () => {
                         required
                       >
                         <option value="">Select Course</option>
-                        <option value="btech">B.Tech</option>
-                        <option value="bca">BCA</option>
-                        <option value="mca">MCA</option>
-                        <option value="mtech">M.Tech</option>
+                        <option value="btech">Diploma in Computer Science</option>
+                        <option value="bca">Diploma in Electrical and Electronis Engneering</option>
+                        <option value="mca">Diploma in Mechanical Engneering</option>
+                        <option value="mca">Diploma in Civil Engneering</option>
+                        <option value="mtech">Diploma in Metlaurgical Engneering</option>
                       </select>
                     </div>
                     
