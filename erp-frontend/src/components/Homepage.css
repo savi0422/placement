@@ -1,0 +1,88 @@
+/* Homepage.css */
+
+/* General Styles */
+.home-page {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  color: #333;
+  text-align: center;
+  padding-bottom: 30px;
+  max-width: 100%; /* Made it full width */
+  margin: auto;
+}
+
+/* Header */
+h1 {
+  background: linear-gradient(to right, #0073e6, #00c6ff);
+  color: white;
+  padding: 25px;
+  margin: 0;
+  font-size: 36px; /* Slightly bigger */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* 🎓🏆 Graduation Cap & Trophy for Achievement */
+h1::before {
+  content: "🎓";
+  font-size: 38px;
+}
+
+h1::after {
+  content: "🏆"; /* Trophy emoji for success */
+  font-size: 38px;
+}
+
+/* Adjusting the width of content sections */
+.section-container {
+  padding: 50px 20px;
+  background: white;
+  margin: 25px auto;
+  width: 98%; /* Increased width */
+  max-width: 1200px; /* Added max-width for better layout */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Enlarged the slider images */
+.slider-image {
+  width: 100%;
+  height: auto;
+  max-height: 550px; /* Increased height */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Institutions Logos Adjusted */
+.institutions-logos img {
+  max-width: 180px; /* Bigger logos */
+  height: auto;
+  margin: 15px;
+}
+
+/* Contact Section Icons */
+.contact-info p::before {
+  content: "📞"; /* Phone Emoji */
+  margin-right: 10px;
+}
+
+.contact-info a::before {
+  content: "📧"; /* Email Emoji */
+  margin-right: 10px;
+}
+
+/* Footer Width Adjusted */
+.footer {
+  width: 100%;
+  padding: 20px;
+  background: #0073e6;
+  color: white;
+  font-size: 16px;
+}
